@@ -143,6 +143,7 @@ from .snobfit import SNOBFIT
 from .spsa import SPSA
 from .tnc import TNC
 from .umda import UMDA
+from .basinhopping import BasinHopping
 
 __all__ = [
     "Optimizer",
@@ -150,6 +151,7 @@ __all__ = [
     "SteppableOptimizer",
     "AskData",
     "TellData",
+    "BasinHopping",
     "OptimizerState",
     "OptimizerResult",
     "Minimizer",
